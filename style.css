@@ -58,18 +58,18 @@ header > * {
   padding: 0;
 }
 
-#search input, 
+#search input,
 #search button {
   background: none;
   border-color: var(--clr-button-border);
-  border-style:solid;
+  border-style: solid;
   border-width: 1px;
   border-image: none;
   appearance: none;
 }
 
 #search {
-  display:none;
+  display: none;
 }
 
 #search-button {
@@ -81,7 +81,7 @@ header > * {
   border: none;
 }
 
-@media screen and (min-width: 55rem){
+@media screen and (min-width: 55rem) {
   #core {
     display: grid;
     grid-template-columns: 70% 30%;
