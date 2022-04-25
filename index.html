@@ -13,24 +13,24 @@
     <header>
         <div id="menu-logo">
                 <a href="" id="menu-icon"><img src="images/menu.svg" alt="Menu"></a>
-                <a href="" id="logo"><img src="images/yt_logo_rgb_light.png" height="20px" alt="YouTube Logo"></a>
+                <a href="" id="logo"><img src="images/yt_logo_rgb_light.png" alt="YouTube Logo"></a>
         </div>
         <div id="search-bar">
                 <input type="text" id="search" placeholder="Search">
-                <button id="search-button"><img src="images/search.svg"></button>
-                <button id="microphone"><img src="images/microphone.svg"></button>
+                <button id="search-button" type="button"><img src="images/search.svg" alt="Search"></button>
+                <button id="microphone" type="button"><img src="images/microphone.svg" alt="Voice Search"></button>
         </div>
         <div id="user-links">
-            <a href="" ><img src="images/video-camera.svg" alt="Create"></a>
-            <a href="" ><img src="images/youtube-apps.svg" height="20px" alt="YouTube Apps"></a>
+            <a href="" ><img src="images/video-camera.svg" alt="Create" class="apps"></a>
+            <a href="" ><img src="images/youtube-apps.svg" alt="YouTube Apps" class="apps"></a>
             <a href="" ><img src="images/bell.svg" alt="Notifications"></a>
-            <a href="" class="user"><img src="" alt="User"></a>
+            <a href="" class="user"><img src="images/user.jpg" alt="User"></a>
         </div> 
     </header>
-    <section id="core">
+    <div id="core">
         <main id="content">
             <section id="video-frame">
-                <iframe src="https://www.youtube.com/embed/V74l_zS1x8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/V74l_zS1x8E" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </section>
             <section id="main-title">
                 <h2>Video Title</h2>
@@ -41,8 +41,8 @@
                 </nav>
             </section>
             <section id="video-info">
-                <h4></h4>
-                <span></span>
+                <h4>User</h4>
+                <span>100K Subscribers</span>
                 <a href="" id="subscribe">Subscribe</a>
                 <p></p>
             </section>    
@@ -57,42 +57,42 @@
             <section id="related-videos">
                 <ul>
                     <li class="related-link">
-                        <div><img src="" alt="Video Thumbnail"></div>
+                        <div><img src="images/placeholder.jpg" alt="Video Thumbnail"></div>
                         <div>
                             <h3 class="title">Lorem ipsum dolor sit.</h3>
-                            <p for="" class="author">Author 1</p>
+                            <p class="author">Author 1</p>
                             <p class="views">1K Views • 1 year ago</p>
                         </div>     
                     </li>
                     <li class="related-link">
-                        <div><img src="" alt="Video Thumbnail"></div>
+                        <div><img src="images/placeholder.jpg" alt="Video Thumbnail"></div>
                         <div>
                             <h3 class="title">Lorem ipsum dolor sit.</h3>
-                            <p for="" class="author">Author 2</p>
+                            <p class="author">Author 2</p>
                             <p class="views">200 Views • 1 year ago</p>
                         </div>
                     </li>
                     <li class="related-link">
-                        <div><img src="" alt="Video Thumbnail"></div>
+                        <div><img src="images/placeholder.jpg" alt="Video Thumbnail"></div>
                         <div>
                             <h3 class="title">Lorem ipsum dolor sit.</h3>
-                            <p for="" class="author">Author 3</p>
+                            <p class="author">Author 3</p>
                             <p class="views">1M Views • 1 year ago</p>
                         </div>
                     </li>
                     <li class="related-link">
-                        <div><img src="" alt="Video Thumbnail"></div>
+                        <div><img src="images/placeholder.jpg" alt="Video Thumbnail"></div>
                         <div>
                             <h3 class="title">Lorem ipsum dolor sit.</h3>
-                            <p for="" class="author">Author 4</p>
+                            <p class="author">Author 4</p>
                             <p class="views">800K Views • 1 year ago</p>
                         </div>
                     </li>
                     <li class="related-link">
-                        <div><img src="" alt="Video Thumbnail"></div>
+                        <div><img src="images/placeholder.jpg" alt="Video Thumbnail"></div>
                         <div>
                             <h3 class="title">Lorem ipsum dolor sit.</h3>
-                            <p for="" class="author">Author 5</p>
+                            <p class="author">Author 5</p>
                             <p class="views">3M Views • 1 year ago</p>
                         </div>
                     </li>
@@ -104,8 +104,8 @@
         <section id="comments">
             <h3>Comments</h3>
             <a href="" id="sorter"></a>
-            <form action="" id="add-comment">
-                <input type="text" name="" id="">
+            <form action="index.html" id="add-comment">
+                <input type="text" name="comment" id="comment">
                 <input type="button" value="Cancel">
                 <input type="button" value="Comment">
             </form>
@@ -152,6 +152,6 @@
 
 
         
-    </section>
+      </div>
 </body>
 </html>
